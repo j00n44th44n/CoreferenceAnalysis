@@ -1,0 +1,34 @@
+what i think is a NP
+((art)?(adj)*(sust))
+<DT>?<JJ>*<NN>
+
+example: the little yellow dog barked at the cat
+    -the little yellow dog
+    -the cat
+
+art             DT      determiner
+adj             JJ      adjectives
+adj relativo    JJR     relative adjectives
+sust            NN      noun
+sust propio     NNP     proper noun
+
+
+other examples:
+    -another/DT sharp/JJ dive/NN
+    -trade/NN figures/NNS
+    -any/DT new/JJ policy/NN measures/NNS
+    -earlier/JJR stages/NNS
+    -Panamanian/JJ dictator/NN Manuel/NNP Noriega/NNP
+
+better grammar:
+((art)?(any kind of adj)*(any kind of sust)+)
+<DT>?<JJ.*>*<NN.*>+
+
+more complex examples:
+    -his/PRP$ Mansion/NNP House/NNP speech/NN
+    -the/DT price/NN cutting/VBG
+    -3/CD %/NN to/TO 4/CD %/NN
+    -more/JJR than/IN 10/CD %/NN
+    -the/DT fastest/JJS developing/VBG trends/NNS
+    -'s/POS skill/NN
+

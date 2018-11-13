@@ -1,0 +1,13 @@
+NP [english]:
+
+
+NP [spanish]:
+(determinante) + nucleo + (adyacente)
+(ARTICULO|PRONOMBRE) + (SUSTANTIVO) + (ADJETIVO)*
+(ARTICULO) + (Infinitivo) + (adverbio)*
+(ARTICULO) + (sust adjetivado) + (adjetivos)*
+
+
+ESTE es el TIPO
+NP: {<d.*>*<n.*><a.*>*} # Busca det + nombre + adjetivo
+NP: {<d.*>*<n.*>+} # Busca seguidas de nombres

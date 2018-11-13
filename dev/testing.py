@@ -1,6 +1,13 @@
 import nltk
 from nltk.stem import WordNetLemmatizer
 
+# wnl = WordNetLemmatizer()
+# word = []
+# word.append(wnl.lemmatize('dogs'))
+# print(str(word))
+
+
+
 # sentence = 'the little yellow dog barked at the cat'
 # print(sentence)
 # tokens = nltk.word_tokenize(sentence,language='english')

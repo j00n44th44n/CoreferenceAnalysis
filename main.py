@@ -103,6 +103,21 @@ def find_pos_pron(tree):
         if tree[i][1] == 'POS' and i>0:
             n_tree = nltk.Tree('NP',tree[i-1])
             l.append(n_tree)
+            continue
+        if (tree[i][1] == 'NN' or tree[i][1] == 'NNP') and i < len(tree)-1:
+            # TODO check if the rest is a named entity
+            j = i+1
+            while(j< len(tree) and tree[j][1] == 'NN'):
+                j+=1
+            hidden_entity = nltk.ne_chunk(tree[i+1:j],binary=True)
+            if len(hidden_entity) == 0:
+                continue
+            for item in hidden_entity.subtrees():
+                if item.label() == 'NE':
+                    continue
+                else:
+                    n_tree = nltk.Tree('NP',tree[i])
+                    l.append(n_tree)
     return l
 
 

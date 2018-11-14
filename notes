@@ -32,3 +32,8 @@ more complex examples:
     -the/DT fastest/JJS developing/VBG trends/NNS
     -'s/POS skill/NN
 
+cada vez que tenga varios sustantivos consecutivos, si no son NE todos menos el 1ero 
+los tomo como que la primera es el sustantivo que me importa y el resto son modificadores 
+del sustantivo
+
+buscar y usar spacy para post tag en espaniol.

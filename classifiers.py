@@ -84,6 +84,13 @@ class Collective_Classifier():
         param x: Vector de características a clasificar
         return: Clasificación
         """
+
+        f=self.cls[0].predict(x)
+        e=self.cls[1].predict(x)
+        d=self.cls[2].predict(x)
+        c=self.cls[3].predict(x)
+        b=self.cls[4].predict(x) 
+        a = mode([cls.predict(x) for cls in self.cls])[0][0]
         return mode([cls.predict(x) for cls in self.cls])[0][0]
 
     def score(self, x, y):

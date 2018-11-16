@@ -344,14 +344,14 @@ def is_alias (antecedent_np:nltk.Tree, antecedent_dict, anaphor_np:nltk.Tree, an
     return False
 
 
-# ! Task 8: Get Markables()
-def get_markables():
-    load_corpus()
+def get_markables(text):
+    # load_corpus()
+    corpus.append(text)
+
     tokenization_and_sentence_segmentation()
     post_tagger()
     noun_phrase_identification()
-    semantic_class_determination()    
-    get_markables()
+    semantic_class_determination()  
 
     pair_noun_phrases = []
     data = []
@@ -412,7 +412,12 @@ def get_markables():
                 for word in anaphor_np.leaves():
                     str2 += (word[0] + ' ')
                 
-                pair_noun_phrases.append((str1,str2))
+                pair_noun_phrases.append('Antecedent :=> \n' + 
+                                         '   sentence: ' + str(antecedent_dict['sentence']) +
+                                         '   phrase: ' + str1 + 
+                                         'Anaphor :=> \n' + 
+                                         '   sentence: ' + str(anaphor_dict['sentence']) +
+                                         '   phrase: ' + str2 + '\n')
                 data.append(features)
 
         doc_num+=1

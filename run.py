@@ -32,7 +32,7 @@
 
 
 from text_processing import get_markables
-import classifiers as cls
+import classifiers
 
 def myrun(text):
     a = cls.Collective_Classifier()

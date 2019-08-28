@@ -1,0 +1,11 @@
+C:\jonathan\university\mineria\code\myApp\bin\Debug\netcoreapp2.1\myApp.deps.json
+C:\jonathan\university\mineria\code\myApp\bin\Debug\netcoreapp2.1\myApp.runtimeconfig.json
+C:\jonathan\university\mineria\code\myApp\bin\Debug\netcoreapp2.1\myApp.runtimeconfig.dev.json
+C:\jonathan\university\mineria\code\myApp\bin\Debug\netcoreapp2.1\myApp.dll
+C:\jonathan\university\mineria\code\myApp\bin\Debug\netcoreapp2.1\myApp.pdb
+C:\jonathan\university\mineria\code\myApp\obj\Debug\netcoreapp2.1\myApp.csprojAssemblyReference.cache
+C:\jonathan\university\mineria\code\myApp\obj\Debug\netcoreapp2.1\myApp.csproj.CoreCompileInputs.cache
+C:\jonathan\university\mineria\code\myApp\obj\Debug\netcoreapp2.1\myApp.AssemblyInfoInputs.cache
+C:\jonathan\university\mineria\code\myApp\obj\Debug\netcoreapp2.1\myApp.AssemblyInfo.cs
+C:\jonathan\university\mineria\code\myApp\obj\Debug\netcoreapp2.1\myApp.dll
+C:\jonathan\university\mineria\code\myApp\obj\Debug\netcoreapp2.1\myApp.pdb
